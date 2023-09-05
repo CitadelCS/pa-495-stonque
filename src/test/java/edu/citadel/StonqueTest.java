@@ -1,8 +1,7 @@
 package edu.citadel;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
+
+import static org.junit.Assert.*;
 
 import java.util.Iterator;
 
@@ -37,7 +36,7 @@ public class StonqueTest {
     @Test
     public void testIsEmptyAfterPush() {
         assertTrue("expect empty to be true for size 0", tq.empty());
-        tq.push(1);
+     //   tq.push(1);
         assertFalse("expect empty to be false after push", tq.empty());
     }
 
