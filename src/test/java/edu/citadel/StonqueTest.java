@@ -36,7 +36,7 @@ public class StonqueTest {
     @Test
     public void testIsEmptyAfterPush() {
         assertTrue("expect empty to be true for size 0", tq.empty());
-     //   tq.push(1);
+        tq.push(1);
         assertFalse("expect empty to be false after push", tq.empty());
     }
 
