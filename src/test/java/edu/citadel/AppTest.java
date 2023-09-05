@@ -17,9 +17,3 @@ public class AppTest {
     }
 }
 
-class AnotherTestClass {
-    @Test
-    public void test() {
-        assertTrue(true);
-    }
-}
