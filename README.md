@@ -44,9 +44,9 @@ To run the test cases locally, open a terminal and type `mvn test`. Alternativel
 
 ## Special cases
 Throw the specified exception for the following corner cases:
-•	Throw a `java.util.NoSuchElementException` if the client calls `pop()` or `peek()` when the Stonque is empty.
-•	Throw a `java.util.NoSuchElementException` if the client calls the `next()` method in the iterator when there are no more items to return.
-•	Throw a `java.lang.UnsupportedOperationException` if the client calls the `remove()` method in the iterator.
+* Throw a `java.util.NoSuchElementException` if the client calls `pop()` or `peek()` when the Stonque is empty.
+* Throw a `java.util.NoSuchElementException` if the client calls the `next()` method in the iterator when there are no more items to return.
+* Throw a `java.lang.UnsupportedOperationException` if the client calls the `remove()` method in the iterator.
 
 ## Unit testing
 Your `main()` method must call each public constructor and method directly and help verify that they work as prescribed (e.g., by printing results to standard output). Your main method will not be tested by the auto-grader.
@@ -61,8 +61,8 @@ Be prepared to write a substantive paragraph on what data structres and strategi
 * You may discuss the assignment and strategies for solving it with classmates, but you may not view/share anyone’s code (except your one partner of course).
 * Your code must be in a Java file called Stonque.java in the default package (i.e. no package declaration at the top).
 * Add a comment block at the top of your code with your name(s), date, and assignment information. List any resources or collaborators here.
-* Submit your code before the deadline. You may re-submit multiple times, but you should be testing your code first in your own client class. 
-•	You can get partial credit if your code compiles. Failing test cases will output simple clues on the results, but it is your job to debug your code, not the auto-grader.
+* Submit your code before the deadline. You may re-submit multiple times, but you should be testing your code first in your own client class.
+* You can get partial credit if your code compiles. Failing test cases will output simple clues on the results, but it is your job to debug your code, not the auto-grader.
 
 ## Q and A for advice
 * Develop unit tests as you write each method and constructor to allow for testing. As an example for Stonque, you know that if you call enqueue() with the numbers 1 through n in ascending order, then call pop() n times, you should see the numbers 1 through n in ascending order. As soon as you have those two methods written, you can write a unit test for these methods. Find similar strategies for other methods.
