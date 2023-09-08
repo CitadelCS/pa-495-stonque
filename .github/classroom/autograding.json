@@ -1,0 +1,84 @@
+{
+    "tests": [
+      {
+        "name": "isempty",
+        "setup": "",
+        "run": "mvn test -Dtest=StonqueTest#testIsEmpty*",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 1,
+        "points": 5
+      },
+      {
+        "name": "test size",
+        "setup": "",
+        "run": "mvn test -Dtest=StonqueTest#testSize*",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 1,
+        "points": 5
+      },
+      {
+        "name": "test push",
+        "setup": "",
+        "run": "mvn test -Dtest=StonqueTest#testPush*",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 1,
+        "points": 5
+      },
+      {
+        "name": "test enqueue",
+        "setup": "",
+        "run": "mvn test -Dtest=StonqueTest#testEnqueue*",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 1,
+        "points": 5
+      },
+      {
+        "name": "peek",
+        "setup": "",
+        "run": "mvn test -Dtest=StonqueTest#testPeek*",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 1,
+        "points": 5
+      },
+      {
+        "name": "tostring",
+        "setup": "",
+        "run": "mvn test -Dtest=StonqueTest#testToString*",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 1,
+        "points": 5
+      },
+      {
+        "name": "pop",
+        "setup": "",
+        "run": "mvn test -Dtest=StonqueTest#testPop*",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 1,
+        "points": 10
+      },
+      {
+        "name": "iterator",
+        "setup": "",
+        "run": "mvn test -Dtest=StonqueTest#testIteratorMethod*",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 1,
+        "points": 10
+      }
+    ]
+  }
