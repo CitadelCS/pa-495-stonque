@@ -1,4 +1,4 @@
+// don't delete this package:
 package edu.citadel;
-//write the stonque class here.
-public class Stonque<Item>{
-}
+
+// write your Stonque class here
