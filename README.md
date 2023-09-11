@@ -58,7 +58,7 @@ Your Stonque implementation must support each Stonque operation (including const
 Be prepared to write a substantive paragraph on what data structres and strategies you chose and why you chose them.
 
 ## Submission requirements and collaboration policy
-* You may discuss the assignment and strategies for solving it with classmates, but you may not view/share anyone’s code (except your one partner of course).
+* You may discuss the assignment and strategies for solving it with classmates, but you may not view/share anyone’s code.
 * Your code must be in a Java file called Stonque.java in the default package (i.e. no package declaration at the top).
 * Add a comment block at the top of your code with your name(s), date, and assignment information. List any resources or collaborators here.
 * Submit your code before the deadline. You may re-submit multiple times, but you should be testing your code first in your own client class.
